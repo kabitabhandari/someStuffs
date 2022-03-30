@@ -1,0 +1,8 @@
+spring:
+  message: Hello, Namaste
+#  profiles:
+#    active: prod
+
+server:
+  port: 8080
+

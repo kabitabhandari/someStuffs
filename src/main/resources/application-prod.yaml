@@ -1,0 +1,5 @@
+spring:
+  message: Hello, it is a Prod Environment
+
+server:
+  port: 8082
