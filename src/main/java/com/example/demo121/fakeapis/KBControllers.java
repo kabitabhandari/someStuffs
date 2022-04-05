@@ -47,7 +47,7 @@ public class KBControllers {
                 throw new IdNotFoundException("Id does not exists!");
             }
             if(!id.equals(person.getId())){
-                throw new UnmatchedIdException("Id does not matching!");
+                throw new UnmatchedIdException("Id does not match!");
             }
         return null;
     }
