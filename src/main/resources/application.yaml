@@ -6,3 +6,11 @@ spring:
 server:
   port: 8080
 
+# key's format could be any: smallcase, hi-phen, snakecase
+kabita:
+  common:
+    best-food: RICE
+    best-drink: soda
+    bestAcharPickle: lapsi ko aachar
+    bestcountryworld: switzerland
+    best_color_rainbow: yellow
