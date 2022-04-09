@@ -1,5 +1,6 @@
-package com.example.demo121.fakeapis;
+package com.example.demo121.readfromyml;
 
+import com.example.demo121.readfromyml.CommonConfigurationProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

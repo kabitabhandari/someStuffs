@@ -1,10 +1,9 @@
-package com.example.demo121.fakeapis;
+package com.example.demo121.readfromyml;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 
 @Component
 @ConfigurationProperties(prefix = "kabita.common")
