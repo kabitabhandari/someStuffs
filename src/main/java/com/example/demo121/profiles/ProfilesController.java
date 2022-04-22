@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProfilesController {
 
-    @Value("${spring.message}")
+    @Value("${spring.message: some default}")
     private String message;
 
     @GetMapping("/profile")

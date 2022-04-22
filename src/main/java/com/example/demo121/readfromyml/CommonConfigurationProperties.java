@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Data
 public class CommonConfigurationProperties{
 // map from application.yml kabita.common (format : smallcase, hi-phen, snakecase)
-private String best_food;
+    private String best_food;
     private String bestdrink;
     private String bestAcharPickle;
     private String bestcountryworld;

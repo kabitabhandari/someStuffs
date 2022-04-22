@@ -10,7 +10,6 @@ import javax.annotation.PostConstruct;
  * note this class will only load if we have spring.profiles.active=dev in application.yml
  */
 @Profile("dev")
-//@Profile("!dev")
 @Configuration
 public class DevProfileClass {
     @PostConstruct

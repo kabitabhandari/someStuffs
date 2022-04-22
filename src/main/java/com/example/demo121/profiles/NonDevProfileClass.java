@@ -9,7 +9,8 @@ import javax.annotation.PostConstruct;
 /**
  * note this class will only load if we have spring.profiles.active=prod in application.yml
  */
-@Profile("!dev")
+//@Profile("!dev")
+@Profile("prod")
 @Configuration
 public class NonDevProfileClass {
     @PostConstruct

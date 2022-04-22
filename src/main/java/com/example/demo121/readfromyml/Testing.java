@@ -1,18 +1,20 @@
 package com.example.demo121.readfromyml;
 
-import com.example.demo121.readfromyml.CommonConfigurationProperties;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 
 @Service
 public class Testing {
-    @Autowired
-    private CommonConfigurationProperties commonConfigurationProperties;
+    private final CommonConfigurationProperties commonConfigurationProperties;
 
-    @PostConstruct
-    public void init() {
+    public Testing(CommonConfigurationProperties commonConfigurationProperties) {
+        this.commonConfigurationProperties = commonConfigurationProperties;
+    }
+
+    @Bean
+    public void init123() {
         System.out.println(commonConfigurationProperties);
         String s2 = commonConfigurationProperties.getBest_food();
         String s1 = commonConfigurationProperties.getBestdrink();
