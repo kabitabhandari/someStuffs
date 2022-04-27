@@ -10,12 +10,12 @@ import java.util.Map;
  * creating a fake database
  */
 @Component
-public class DataSource {
+public class DataSourcee {
 
     private Map<Integer, Person> personMap = new HashMap<>();
 
 
-    private DataSource(){
+    private DataSourcee(){
         //dummy data
         personMap.put(1, new Person(1, "Ada", "Ada Lovelace was the first programmer.", 1815));
         personMap.put(2, new Person(2, "Kevin", "Kevin is the author of HappyCoding.io.", 1986));

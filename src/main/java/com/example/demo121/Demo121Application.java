@@ -8,14 +8,15 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 @SpringBootApplication
 public class Demo121Application {
 
-	public static void main(String[] args) {
-		//SpringApplication.run(Demo121Application.class, args);
-		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Demo121Application.class);
+	public static void main(String[] args) throws InterruptedException {
+	/*	ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Demo121Application.class);
 		String[] beanArray = applicationContext.getBeanDefinitionNames();
 		System.out.println("ALL BEANS are:: ");
 		for(String beanName : beanArray) {
 			System.out.println(beanName);
-		}
+		}*/
+		SpringApplication.run(Demo121Application.class, args);
+
 
 	}
 
